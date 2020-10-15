@@ -4,23 +4,20 @@
 var array = [];
 
 // chiedo sei volte all'utente di inserire un numero
-var numero = parseInt(prompt("Scrivi un numero"));
-var numero = parseInt(prompt("Scrivi un altro numero"));
-var numero = parseInt(prompt("Scrivi un altro numero"));
-var numero = parseInt(prompt("Scrivi un altro numero"));
-var numero = parseInt(prompt("Scrivi un altro numero"));
-var numero = parseInt(prompt("Scrivi un altro numero"));
+for (var i = 0; i < 6; i++) {
+    var numero = parseInt (prompt("Scrivi un numero"));
+    console.log(numero);
+}
 
-var resto = numero % 2;
-console.log(resto);
 
-for(var i = 0; i < array.length; i++) {
-  console.log(array[i]);
+var risultato = numero % 2;
+console.log(risultato);
 
-  if(resto == 0) {
+if(numero == 0) {
+    console.log("Numero pari");
       // il numero è pari, non va inserito nell'array
   } else {
-      console.log(array);
-      // il numero è dispari, bisona inserirlo nell'array
+      array = ();
+      console.log("Numero dispari");
+      // il numero è dispari, bisogna inserirlo nell'array
   }
-}
