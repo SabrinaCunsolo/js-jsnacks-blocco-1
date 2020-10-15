@@ -6,18 +6,12 @@ var array = [];
 // chiedo sei volte all'utente di inserire un numero
 for (var i = 0; i < 6; i++) {
     var numero = parseInt (prompt("Scrivi un numero"));
-    console.log(numero);
+
+    var risultato = numero % 2;
+
+    if (risultato != 0) {
+        array.push(numero);
+        console.log(numero);
+        
+      }
 }
-
-
-var risultato = numero % 2;
-console.log(risultato);
-
-if(numero == 0) {
-    console.log("Numero pari");
-      // il numero è pari, non va inserito nell'array
-  } else {
-      array = ();
-      console.log("Numero dispari");
-      // il numero è dispari, bisogna inserirlo nell'array
-  }
