@@ -7,7 +7,7 @@ var max1000 = 1000;
 
 for (var i = 1; Math.pow(2, i) < max1000; i++){
 
-    var potenze = Math.pow(2, i)
+    var potenze = Math.pow(2, i);
 
-    console.log (potenze); // stampo 
+    console.log (potenze); // stampo
 }
