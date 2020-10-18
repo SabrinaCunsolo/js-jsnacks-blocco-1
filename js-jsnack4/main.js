@@ -12,6 +12,6 @@ for (var i = 0; i < 6; i++) {
     if (risultato != 0) {
         array.push(numero);
         console.log(numero);
-        
-      }
+
+    }
 }
